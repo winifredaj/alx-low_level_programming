@@ -2,7 +2,7 @@
 /**
  * main- prints on quote
  *
- * return: zero on success
+ * Return: zero on success
  *
  */
 int main(void)
@@ -13,11 +13,11 @@ int main(void)
 	long long int l; 
 	float f;
 
-	printf ("size of a char: %lu.\n", (unsigned long)sizeof(c));
-	printf ("size of a int: %lu.\n", (unsigned long)sizeof(i));
-	printf ("size of a long int: %lu.\n", (unsigned long)sizeof(d));
-	printf ("size of a long long int: %lu.\n", (unsigned long)sizeof(l));
-	printf ("size of a float: %lu.\n", (unsigned long)sizeof(f));
+	printf ("Size of a char: %lu.\n",(unsigned long)sizeof(c),"byte(s)");
+	printf ("Size of an int: %lu.\n",(unsigned long)sizeof(i));
+	printf ("size of a long int: %lu.\n",(unsigned long)sizeof(d));
+	printf ("Size of a long long int: %lu.\n",(unsigned long)sizeof(l));
+	printf ("Size of a float: %lu.\n",(unsigned long)sizeof(f));
 
 	return(0);
 }
