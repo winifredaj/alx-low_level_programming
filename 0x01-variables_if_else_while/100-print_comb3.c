@@ -15,12 +15,12 @@ int main(void)
 	{
 		for (y = 48; y <= 57; y++)
 		{
-			if (x < y ) && (y >= 57)
+			if ((x < y ) && (y <= 57))
 			{
 				putchar(x);
 				putchar(y);
 			}
-			if (y < 57) | (x < 58)
+			if ((y < 57) | (x < 58))
 			{
 				putchar(',');
 				puchar(' ');
