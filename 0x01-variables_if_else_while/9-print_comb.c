@@ -11,11 +11,10 @@ int main(void)
 {
 	int num;
 
-	for (num = 48; num <= 57; num++)
+	while (num < 57)
 	{
 		if (num < 57) 
 		{
-			putchar(num);
 			putchar(',');
 			putchar(' ');
 		}
