@@ -15,7 +15,8 @@ int main(void)
 	{
 		for (y= 48; y <= 57; y++)
 		{
-			putchar(xy);
+			putchar(x);
+			putchar(y);
 			putchar(',');
 			putchar(' ');
 		}
