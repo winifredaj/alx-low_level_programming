@@ -19,12 +19,12 @@ int main(void)
 			{
 				putchar(x);
 				putchar(y);
+				if ((y < 57) | (x < 5))
+				{
+					putchar(',');
+					putchar(' ');
+				}
 			}
-			if ((y < 57) | (x < 56))
-			{
-				putchar(',');
-				putchar(' ');
-			}	
 		}
 	}
 
