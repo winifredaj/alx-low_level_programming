@@ -15,12 +15,13 @@ int main(void)
 	{
 		if (num < 57) 
 		{
-			putchar(num ',');
+			putchar(num);
+			putchar(',');
 			putchar(' ');
 		}
 		else
 		{
-			putchar(' ');
+			putchar(num);
 		}
 	}
 	putchar('\n');
