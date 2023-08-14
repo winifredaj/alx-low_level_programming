@@ -23,7 +23,7 @@ int main(void)
 			if ((y < 57) | (x < 58))
 			{
 				putchar(',');
-				puchar(' ');
+				putchar(' ');
 			}
 		}
 	}
