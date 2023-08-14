@@ -15,7 +15,7 @@ int main(void)
 	{
 		putchar(hex);
 	}
-	for (hex = 97; hex <= 101; hex++)
+	for (hex = 97; hex <= 102; hex++)
 	{
 		putchar(hex);
 	}
