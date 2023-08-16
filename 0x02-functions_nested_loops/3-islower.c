@@ -3,13 +3,13 @@
 /**
  * main - checks code
  *
- * Return: always zero
+ * Return: one if lowercase, otherwise zero
  */
 int main (void)
 {
 	char lowerCase;
 
-	for (lowerCase = 'a'; lowerCase = 'z'; lowerCase++)
+	for (lowerCase = 'a'; lowerCase <= 'z'; lowerCase++)
 	{
 		putchar(lowerCase);
 	}
@@ -18,7 +18,7 @@ int main (void)
 /**
  * int_islower(int c) - checks for lowercase
  *
- *
+ */
 int _islower(int c)
 {
 	if ((lowerCase >= 97) && (lowerCase <= 122))
