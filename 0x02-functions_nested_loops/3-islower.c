@@ -21,6 +21,8 @@ int main (void)
  */
 int _islower(int c)
 {
+	int lowerCase;
+
 	if ((lowerCase >= 97) && (lowerCase <= 122))
 	{
 		return (1);
