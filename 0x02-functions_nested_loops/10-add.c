@@ -1,11 +1,13 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * add -adds two integers 
+ * add- adds two integers 
  *
- * @x,y: characters to be added
+ * @x: characters to be added
  *
- *Return: results of adddition
+ * @y: integer to add
+ *
+ * Return: results of adddition
  */
 int add(int x, int y)
 {
