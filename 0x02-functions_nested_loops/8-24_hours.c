@@ -3,7 +3,7 @@
 /**
  * jack_bauer - prints minutes
  *
- * @hr: value of time is stored
+ * @void: first int to add
  *
  */
 void jack_bauer(void)
