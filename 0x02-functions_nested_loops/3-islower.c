@@ -4,18 +4,6 @@
  * main - checks code
  *
  * Return: one if lowercase, otherwise zero
- */
-int main (void)
-{
-	char lowerCase;
-
-	for (lowerCase = 'a'; lowerCase <= 'z'; lowerCase++)
-	{
-		putchar(lowerCase);
-	}
-	putchar('\n');
-}
-/**
  * int_islower(int c) - checks for lowercase
  *
  */
