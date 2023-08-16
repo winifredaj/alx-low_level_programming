@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include "main.h"
 /**
- *
  * print_alphabet - prints lower case alphabet
  *
  */
@@ -16,14 +15,14 @@ void print_alphabet(void)
 	putchar('\n');
 }
 /**
- * print_alphabetx10 - prints lower case alphabet ten times
+ * print_alphabet_x10 - prints lower case alphabet ten times
  *
  */
 void print_alphabet_x10(void)
 {
 	int i;
 
-	for (i = 0; i <= 9; i++)
+	for (i = 48; i <= 57; i++)
 	{
 		putchar(i);
 	}
