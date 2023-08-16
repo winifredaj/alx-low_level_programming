@@ -3,24 +3,24 @@
 /**
  * jack_bauer - prints time
  *
- * @hour: value of time is stored
+ * @hr: value of time is stored
  *
  * Return: no return
  */
 void jack_bauer(void)
 {
-	int hour;
-	int minute;
+	int hr;
+	int min;
 	
-	for (hour = 0; hour <= 23; hour++)
+	for (hr = 0; hr <= 23; hr++)
 	{
-		for (minute = 0; minute <= 59; minute++)
+		for (min = 0; min <= 59; min++)
 		{
-			putchar((hour / 10) + '0');
-			putchar((hour % 10) + '0');
+			putchar((hr / 10) + '0');
+			putchar((hr % 10) + '0');
 			putchar(':');
-			putchar((minute / 10) + '0');
-			putchar((minute % 10) + '0');
+			putchar((min / 10) + '0');
+			putchar((min % 10) + '0');
 			putchar('\n');
 		}
 	}
