@@ -1,10 +1,8 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * add- adds two integers 
- *
+ * add- adds two integers
  * @x: characters to be added
- *
  * @y: integer to add
  *
  * Return: results of adddition
