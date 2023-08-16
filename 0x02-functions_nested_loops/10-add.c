@@ -7,10 +7,10 @@
  *
  *Return: results of adddition
  */
-int add(int, int)
+int add(int x, int y)
 {
-	int x, y;
+	int z;
 
-	x = x + y;
-	return (x);
+	z = x + y;
+	return (z);
 }
