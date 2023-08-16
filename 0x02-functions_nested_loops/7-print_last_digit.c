@@ -5,9 +5,9 @@
  *
  * @n: character to checck for last digit
  *
- *Return: last digit of x
+ *Return: last digit of n
  */
-int print_last_digit(int x)
+int print_last_digit(int n)
 {
 	int n = n % 10;
 
