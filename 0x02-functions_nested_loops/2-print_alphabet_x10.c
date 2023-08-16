@@ -14,13 +14,17 @@ void print_alphabet(void)
 		putchar(i);
 	}
 	putchar('\n');
+}
+/**
+ * print_alphabetx10 - prints lower case alphabet ten times
+ *
+ */
 void print_alphabet_x10(void)
 {
 	int i;
 
-	for (i = 0; i <= 9;  i++)
+	for (i = 0; i <= 9; i++)
 	{
 		putchar(i);
 	}
-	return (0);
 }
