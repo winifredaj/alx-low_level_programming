@@ -3,9 +3,9 @@
 /**
  * print_sign - prints sign of n for each case
  *
- * @c: character to be checked for what sign n is
+ * @n: character to be checked for what sign n is
  *
- *Return: one if n is greater than zero and zero if n is zero , otherwise negative one
+ *Return: one if n is positive, minus one if negative, otherwise zero
  */
 int print_sign(int n)
 {
@@ -24,4 +24,5 @@ int print_sign(int n)
 		putchar('-');
 		return (-1);
 	}
+	putchar('\n');
 }
