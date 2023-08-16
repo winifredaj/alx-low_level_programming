@@ -1,16 +1,14 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * jack_bauer - prints time
+ * jack_bauer - prints minutes
  *
  * @hr: value of time is stored
  *
- * Return: no return
  */
 void jack_bauer(void)
 {
-	int hr;
-	int min;
+	int hr, min;
 	
 	for (hr = 0; hr <= 23; hr++)
 	{
