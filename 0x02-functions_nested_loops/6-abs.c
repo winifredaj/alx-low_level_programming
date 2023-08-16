@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * int_abs - computes absolute integer
+ *_abs - computes absolute integer
  *
  * @n: character to be change to absolute integr
  *
