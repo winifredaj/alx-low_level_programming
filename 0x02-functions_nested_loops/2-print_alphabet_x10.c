@@ -24,6 +24,6 @@ void print_alphabet_x10(void)
 
 	for (i = 48; i <= 57; i++)
 	{
-		print_alphabet(i);
+		print_alphabet();
 	}
 }
