@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stdio.h>
 /**
  * _isupper - checks if intteger is upper case.
  * @c: character passed to test function
