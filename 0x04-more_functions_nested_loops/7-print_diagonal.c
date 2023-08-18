@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * print_diagonal - print diagonal line
+ * print_diagonal- print diagonal line
  * @n: character used to print line
- * Return: Always 0.
+ * Return: nothing
  */
 void print_diagonal(int n)
 {
