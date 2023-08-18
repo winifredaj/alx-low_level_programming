@@ -1,3 +1,5 @@
+#include "main.h"
+
 /**
  * more_numbers - prints numbers from 1-14
  *
@@ -15,6 +17,6 @@ void more_numbers(void)
 				_putchar((i / 10) + '0');
 			_putchar((i % 10 + '0');
 		}
-	_putchar('\n');
+		_putchar('\n');
 	}
 }
