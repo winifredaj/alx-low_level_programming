@@ -1,10 +1,7 @@
 #include "main.h"
-
 /**
  * print_diagonal- print diagonal line
  * @n: character used to print line
- * @i: integer
- * @j: integer
  * Return: nothing
  */
 void print_diagonal(int n)
