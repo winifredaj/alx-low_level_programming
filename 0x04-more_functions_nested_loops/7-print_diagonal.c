@@ -2,6 +2,7 @@
 
 /**
  * print_diagonal - print diagonal line
+ * @n: character used to print line
  * @i: integer
  * @j: integer
  * Return: Always 0.
@@ -13,7 +14,9 @@ void print_diagonal(int n)
 	for (i = 1; i <=  n; i++)
 	{
 		for (j = 1; j < i; j++)
+		{
 			_putchar(' ');
+		}
 		_putchar('\\');
 		_putchar('\n');
 	}
