@@ -1,7 +1,7 @@
-#include "main.h"
+i#include "main.h"
 
 /**
- * priny_triangle - print triangle using #
+ * print_triangle - print triangle using #
  * @size: size of triangle tobe printed
  * Return: Always 0.
  */
