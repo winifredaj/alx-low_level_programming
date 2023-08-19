@@ -2,8 +2,8 @@
 #include "main.h"
 /**
  * main - prints fizzbuzz numbers
- *
- *Return: one if it is an alphabet, otherwise zero
+ * Description: Write a program that prints the numbers from 1 to 100
+ * Return: one if it is an alphabet, otherwise zero
  */
 int main(void)
 {
@@ -13,19 +13,19 @@ int main(void)
 	{
 		if (x % 3 == 0) && (x % 5 == 0)
 		{
-			printf('FizzBuzz');
+			printf("FizzBuzz ");
 		}
 		else if (x % 5 == 0)
 		{
-			printf('Buzz');
+			printf("Buzz ");
 		}
 		else if (x % 3 == 0)
 		{
-			printf('Fizz');
+			printf("Fizz ");
 		}
 		else
-			printf(%d, x);
-		_putchar(' ');
+			printf("%d", x);
 	}
-	_putchar('\n');
+	printf("Buzz\n");
+	return (0);
 }
