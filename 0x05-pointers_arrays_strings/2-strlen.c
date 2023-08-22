@@ -4,12 +4,15 @@
 /**
  * strlen- print lenght of string 
  * @n: string 
- * Return: Always 0.
+ * Return: number of string
  */
 int _strlen(char *s)
 {
-	int n;
+	int n = 0;
 
-	n = _strlen(s);
-	printf("%d\n", n);
+	for (; *s != "\0"; s++)
+	{
+		n++;
+	}
+	return (n);
 }
