@@ -4,12 +4,11 @@
 /**
  * _strlen- print length of string
  * @s: string to count
- * 
  * Return: string length
  */
 int _strlen(char *s)
 {
-	int n;
+	int n = 0;
 
 	for (; *s != '\0'; s++)
 	{
