@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * puts2- prints string
+ * puts2 - prints string
  * @str: string to print
  * Return: void
  */
