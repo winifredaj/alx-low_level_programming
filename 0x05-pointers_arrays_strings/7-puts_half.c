@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * puts_half- prints half of string
+ * puts_half - prints half of string
  * @str: string to print
  * Return: void
  */
