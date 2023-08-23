@@ -3,8 +3,8 @@
 
 /**
  * rev_string- prints string and reverses it
- * @s: string to be modified 
- * Return: void
+ * @s: string to be modified
+ *Return: void
  */
 void rev_string(char *s)
 {
