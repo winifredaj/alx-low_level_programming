@@ -2,14 +2,14 @@
 #include <stdio.h>
 
 /**
- * puts- prints string
+ * puts2- prints string
  * @str: string to print
  * Return: void
  */
 void puts2(char *str)
 {
-	int j = 0;
 	int i;
+	int j = 0;
 
 	while (str[j] != '\0')
 	{
