@@ -2,12 +2,12 @@
 #include <stdio.h>
 
 /**
- * _strncpy - concatenate two strings
+ * _strncpy - copy strings
  * @dest: the destination string
  * @src: the source string
  * @n: copy limit
  *
- * Return: nothing
+ * Return: char
  */
 char *_strncpy(char *dest, char *src, int n)
 {
@@ -20,12 +20,12 @@ char *_strncpy(char *dest, char *src, int n)
 	}
 	while (a < n && src[a])
 	{
-		dest[a] == src[a];
+		dest[a] = src[a];
 		a++;
 	}
 	while (a < n)
 	{
-		des[a] == '\0';
+		des[a] = '\0';
 		a++;
 	}
 	return (dest);
