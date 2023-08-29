@@ -4,7 +4,6 @@
   * _strchr - locate character in string
   * @s: source string
   * @c: character to find
-  *
   * Return: the string from character found
   */
 char *_strchr(char *s, char c)
@@ -20,9 +19,10 @@ char *_strchr(char *s, char c)
 	{
 		if (c == s[b])
 		{
-			c += b;
+			s += b;
 			return (s);
 		}
+	
 	}
 	return ('\0');
 }
