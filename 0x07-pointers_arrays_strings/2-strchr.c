@@ -4,12 +4,12 @@
   * _strchr - locate character in string
   * @s: source string
   * @c: character to find
+  *
   * Return: the string from character found
   */
 char *_strchr(char *s, char c)
 {
-	int a = 0;
-	int b;
+	int a = 0, b;
 
 	while (s[a])
 	{
@@ -23,7 +23,6 @@ char *_strchr(char *s, char c)
 			s += b;
 			return (s);
 		}
-	
 	}
 
 	return ('\0');
