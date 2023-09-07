@@ -1,4 +1,5 @@
 #include "main.h"
+
 int check_palindrome(char *s);
 
 /**
